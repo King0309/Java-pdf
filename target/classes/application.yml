@@ -1,0 +1,11 @@
+server:
+  port: 9990
+
+spring:
+  application:
+    name: pdf-server
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+    static-path-pattern: /**
